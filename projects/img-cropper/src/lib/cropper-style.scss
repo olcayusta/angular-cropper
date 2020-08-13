@@ -1,0 +1,59 @@
+#container {
+  margin: 24px;
+}
+
+pre {
+  font-size: 18px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.drag {
+  width: 300px;
+  height: 300px;
+  cursor: move;
+  z-index: 1;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  border-radius: 2px;
+}
+
+#debug {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+
+  div {
+    padding: 4px 0;
+  }
+}
+
+input[type=file] {
+  display: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: 'Space Mono', monospace;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button {
+  background-color: #212121;
+  min-width: 88px;
+  padding: 0 16px;
+  line-height: 36px;
+  color: #fff;
+  border-radius: 2px;
+}
